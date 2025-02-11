@@ -47,7 +47,7 @@ export const SocialLinksIcons = () => {
           {/* phone */}
           <div>
             <a href="tell: +254748953470" target='_blank'>
-            <img src="phone-call-square-button-svgrepo-com.svg" width={32} alt="" />
+            <img src="phone-call-square-button-svgrepo-com.svg" width={31} alt="" />
             </a>
           </div>
         </div>
