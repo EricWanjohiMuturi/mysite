@@ -97,7 +97,7 @@ export function NavbarDefault() {
  
   return (
     <Navbar
-      className="mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4"
+      className="mx-auto sticky top-0 z-10 max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4"
       placeholder=""
       onPointerEnterCapture={() => {}}
       onPointerLeaveCapture={() => {}}
@@ -112,8 +112,9 @@ export function NavbarDefault() {
           Material Tailwind
         </Typography> */}
         <div className="hidden lg:block">{navList}</div>
-        <Link to="/contact/">
-            <div className="flex items-center gap-x-1">
+        
+          <div className="flex gap-4 items-center">
+            <Link to="/contact/">
             <Button
                 variant="gradient"
                 size="md"
@@ -125,8 +126,22 @@ export function NavbarDefault() {
             >
                 <span>Let's Chat</span>
             </Button>
-            </div>
-        </Link>
+            </Link>
+            <Link to="/community/">
+            <Button
+                variant="gradient"
+                size="md"
+                color="blue"
+                className="hidden lg:inline-block"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+            >
+                <span>Join Community</span>
+            </Button>
+            </Link>
+          </div>
+        
         <IconButton
           variant="text"
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -169,12 +184,11 @@ export function NavbarDefault() {
         </IconButton>
       </div>
       <MobileNav open={openNav}>
-        <div className="container text-blue-600 mx-auto">
+        <div className="container sticky top-0 z-10 text-blue-600 mx-auto">
           {navList}
-          <Link to="/contact/">
-            <div className="flex items-center gap-x-1">
+            <div className="flex items-center gap-4">
+              <Link to="/contact/">
                 <Button 
-                fullWidth 
                 variant="gradient"  
                 className="" 
                 color="blue"
@@ -185,9 +199,21 @@ export function NavbarDefault() {
                 >
                 <span>Let's Chat</span>
                 </Button>
+              </Link>
+              <Link to="/community/">
+                <Button 
+                variant="gradient"  
+                className="" 
+                color="blue"
+                size="md"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+                >
+                <span>Join Community</span>
+                </Button>
+              </Link>
             </div>
-          </Link>
-
         </div>
       </MobileNav>
     </Navbar>

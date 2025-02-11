@@ -6,6 +6,8 @@ import About from './Components/Views/About'
 import Projects from './Components/Views/Projects'
 import Insights from './Components/Views/Insights'
 import Contactme from './Components/Views/Contactme'
+import Community from './Components/Views/Community'
+import { FooterWithLogo } from './Components/Includes/Footer'
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
         <Route path='/projects/' element={<Projects />} />
         <Route path='/insights/' element={<Insights />} />
         <Route path='/contact/' element={<Contactme />} />
+        <Route path='/community/' element={<Community />} />
       </Routes>
+      <FooterWithLogo />
     </Router>
     </>
   )

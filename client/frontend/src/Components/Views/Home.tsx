@@ -1,8 +1,13 @@
 //import React from 'react'
 
+import { SocialLinksIcons } from "../Includes/Socials"
+
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <SocialLinksIcons />
+    </>
   )
 }
 
