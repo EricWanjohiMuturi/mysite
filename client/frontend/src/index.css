@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "tailwindcss";
+
+:root{
+  --primary-color: #F5EFEB;
+  --secondary-color: #2F4156;
+  --alt-color: #C8D9E6;
+}
+
+body{
+  font-family: "Ubuntu", serif !important;
+  background: rgb(245,239,235);
+  background: linear-gradient(0deg, rgba(245,239,235,1) 0%, rgba(248,252,255,1) 70%);
+  color: var(--secondary-color) !important;
+}
