@@ -5,6 +5,7 @@ import Home from './Components/Views/Home'
 import About from './Components/Views/About'
 import Projects from './Components/Views/Projects'
 import Insights from './Components/Views/Insights'
+import Contactme from './Components/Views/Contactme'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about/' element={<About />} />
         <Route path='/projects/' element={<Projects />} />
         <Route path='/insights/' element={<Insights />} />
+        <Route path='/contact/' element={<Contactme />} />
       </Routes>
     </Router>
     </>
