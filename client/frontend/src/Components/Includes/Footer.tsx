@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { SocialLinksIcons } from "./Socials";
  
 export function FooterWithLogo() {
   return (
@@ -75,7 +76,7 @@ export function FooterWithLogo() {
         </ul>
       </div>
       <hr className="my-8 border-blue-gray-50" />
-      
+      <SocialLinksIcons />
       <Typography 
       color="blue-gray" 
       className="text-center font-normal"

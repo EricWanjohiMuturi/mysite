@@ -1,7 +1,7 @@
 export const SocialLinksIcons = () => {
     return (
       <>
-        <div className="flex flex-wrap justify-start items-center gap-5 my-8">
+        <div className="flex flex-wrap justify-center items-center gap-5 my-8">
           {/* insta */}
           <div>
             <a href="https://www.instagram.com/muturi_eric/" target='_blank'>
