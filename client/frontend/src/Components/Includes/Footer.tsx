@@ -9,76 +9,86 @@ export function FooterWithLogo() {
         <Link to="/"><img src="/Logo/create-with-eric.png" alt="Developer and Designer - Create with Eric" loading="lazy" width={100} /></Link>
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
-            <Typography
-              as="a"
-              href="#"
-              color="blue-gray"
-              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              About Me
-            </Typography>
+            <Link to="/about/">
+              <Typography
+                as="a"
+                href="#"
+                color="blue"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+              >
+                About Me
+              </Typography>
+            </Link>
           </li>
           <li>
-            <Typography
-              as="a"
-              href="#"
-              color="blue-gray"
-              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              My Projects
-            </Typography>
+            <Link to="/projects/">
+              <Typography
+                as="a"
+                href="#"
+                color="blue"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+              >
+                My Projects
+              </Typography>
+            </Link>
           </li>
           <li>
-            <Typography
-              as="a"
-              href="#"
-              color="blue-gray"
-              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              Join Community
-            </Typography>
+            <Link to="/community/">
+              <Typography
+                as="a"
+                href="#"
+                color="blue"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+              >
+                Join Community
+              </Typography>
+            </Link>
           </li>
           <li>
-            <Typography
-              as="a"
-              href="#"
-              color="blue-gray"
-              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              Insights
-            </Typography>
+            <Link to="/insights/">
+              <Typography
+                as="a"
+                href="#"
+                color="blue"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+              >
+                Insights
+              </Typography>
+            </Link>
           </li>
           <li>
-            <Typography
-              as="a"
-              href="#"
-              color="blue-gray"
-              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              Contact Us
-            </Typography>
+            <Link to="/contact/">
+              <Typography
+                as="a"
+                href="#"
+                color="blue"
+                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+              >
+                Contact Us
+              </Typography>
+            </Link>
           </li>
         </ul>
       </div>
       <hr className="my-8 border-blue-gray-50" />
       <SocialLinksIcons />
       <Typography 
-      color="blue-gray" 
+      color="blue" 
       className="text-center font-normal"
       placeholder=""
       onPointerEnterCapture={() => {}}

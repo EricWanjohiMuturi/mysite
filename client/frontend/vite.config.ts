@@ -26,6 +26,9 @@ export default withMT({
           600: "#039be5"
         }
       },
+      rotate: {
+        '24': '-6deg',
+      },
     },
   },
   plugins: [
