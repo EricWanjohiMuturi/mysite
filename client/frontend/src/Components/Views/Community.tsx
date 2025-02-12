@@ -58,7 +58,7 @@ const Community = () => {
 
         </div>
       </div>
-      <div className="my-10">
+      <div className="my-10 sm:w-4/12">
         <CommRegistrationForm />
       </div>
     </div>
