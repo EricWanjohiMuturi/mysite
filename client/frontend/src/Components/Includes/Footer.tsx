@@ -79,7 +79,7 @@ export function FooterWithLogo() {
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
               >
-                Contact Us
+                Contact Me
               </Typography>
             </Link>
           </li>

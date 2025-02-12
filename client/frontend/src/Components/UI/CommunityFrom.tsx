@@ -112,7 +112,7 @@ export function CommRegistrationForm() {
             name="name"
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
-            crossOrigin="" 
+            crossOrigin="anonymous" 
             value={formData.name}
             onChange={handleChange}
             required
@@ -125,7 +125,7 @@ export function CommRegistrationForm() {
             type="email"
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
-            crossOrigin="" 
+            crossOrigin="anonymous" 
             value={formData.email}
             onChange={handleChange}
             required
@@ -138,23 +138,24 @@ export function CommRegistrationForm() {
             type="tel"
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
-            crossOrigin="" 
+            crossOrigin="anonymous" 
             value={formData.phone}
             onChange={handleChange}
             required
           />
-          <div className="-ml-2.5 my-2">
+            <div className="-ml-2.5 my-2">
             <Checkbox
+              className="text-grey"
               label="By checking this box, I consent & agree to share this information. Terms & Conditions Apply"
               name="consent"
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
-              crossOrigin="" 
+              crossOrigin="anonymous" 
               checked={formData.consent}
               onChange={handleChange}
               required
             />
-          </div>
+            </div>
         </CardBody>
         <CardFooter 
         className="pt-0"

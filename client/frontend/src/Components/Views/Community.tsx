@@ -14,7 +14,7 @@ const Community = () => {
         Whether you're a junior developer eager to learn or a seasoned developer looking to share knowledge, 
         Emore Devs is the place for you!
         </p>
-        <div className="my-5">
+        <div className="my-8">
           <h3 className="text-left font-bold text-xl text-blue-600">Why Join Emore Devs?</h3>
           <div className="my-5">
             <div className="flex mb-1 flex-wrap items-center justify-start gap-2">
