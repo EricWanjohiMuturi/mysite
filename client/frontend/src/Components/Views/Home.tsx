@@ -1,9 +1,11 @@
 //import React from 'react'
 
+import { HomeHero } from "../UI/Hero"
+
 const Home = () => {
   return (
     <>
-      Welcome Home
+      <HomeHero />
     </>
   )
 }

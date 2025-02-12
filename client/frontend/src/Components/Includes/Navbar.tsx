@@ -104,13 +104,6 @@ export function NavbarDefault() {
     >
       <div className="container mx-auto flex items-center justify-between text-blue-600">
         <Link to="/"><img src="/Logo/create-with-eric.png" alt="Developer and Designer - Create with Eric" loading="lazy" width={100} /></Link>
-        {/* <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium"
-        >
-          Material Tailwind
-        </Typography> */}
         <div className="hidden lg:block">{navList}</div>
         
           <div className="flex gap-4 items-center">
