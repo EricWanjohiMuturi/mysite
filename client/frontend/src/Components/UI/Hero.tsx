@@ -20,7 +20,7 @@ export const HomeHero = () => {
             </div>  
         </div>
         <div className="flex">
-             <img src="/Eric/Muturi_Eric_Full-Stack_Developer.png" alt="" loading="lazy" width={480} className=""/>
+             <img src="/Eric/Muturi_Eric_Full-Stack_Developer.png" alt="Eric Wanjohi Muturi - Software Engineer | Designer"  width={480} className=""/>
         </div>
     </div>
     </>
