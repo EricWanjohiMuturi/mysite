@@ -147,5 +147,5 @@ JAZZMIN_SETTINGS = {
 
     "site_logo": "static\images\create-with-eric.png",
 
-    "show_ui_builder": True,
+    "show_ui_builder": True, 
 }
