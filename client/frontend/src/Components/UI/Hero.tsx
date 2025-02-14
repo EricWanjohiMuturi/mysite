@@ -6,7 +6,7 @@ export const HomeHero = () => {
   return (
     <>
     <div className="flex flex-wrap items-center justify-between gap-4 my-10">
-        <div className="sm:w-6/12 my-5">
+        <div className="sm:w-6/12 my-5 h-auto">
            <h1 className="text-xl mb-3 text-left">Hi 👋, I’m Eric.</h1>
             <h1 className="text-5xl font-bold mb-3 text-left text-blue-600">Design, Develop & Automate</h1>
             <p className="text-left text-xl mb-6">
