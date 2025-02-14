@@ -2,6 +2,7 @@
 
 import { HeadingOne } from "../UI/Headings"
 import { HomeHero } from "../UI/Hero"
+import { ProjectCard } from "../UI/ProjectCard"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <div>
         <HeadingOne title="Projects" />
       </div>
+      <ProjectCard />
     </>
   )
 }

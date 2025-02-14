@@ -4,6 +4,7 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
 import Home from './Components/Views/Home'
 import About from './Components/Views/About'
 import Projects from './Components/Views/Projects'
+import Project from './Components/Views/Project'
 import Insights from './Components/Views/Insights'
 import Contactme from './Components/Views/Contactme'
 import Community from './Components/Views/Community'
@@ -24,6 +25,7 @@ function App() {
         <Route path='/insights/' element={<Insights />} />
         <Route path='/contact/' element={<Contactme />} />
         <Route path='/community/' element={<Community />} />
+        <Route path='/project/' element={<Project /> } />
       </Routes>
       <FooterWithLogo />
     </Router>
